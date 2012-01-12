@@ -11,7 +11,7 @@
 (function ($) {
   Drupal.behaviors.re_orbit = {
     attach: function(context) {
-      $('#featured').orbit({
+      $('.view-id-slideshow.view-display-id-block .view-content').orbit({
         animation: 'fade', // fade, horizontal-slide, vertical-slide, horizontal-push
         animationSpeed: 800, // how fast animtions are
         timer: true, // true or false to have the timer

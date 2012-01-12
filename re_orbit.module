@@ -44,11 +44,11 @@ function re_orbit_library() {
         'group' => JS_LIBRARY,
         'weight' => 6,
       ),
-      'css' => array(
-        $path_to_module . '/js/orbit-1.2.3/orbit-1.2.3.css' => array(
-          'type' => 'file',
-          'media' => 'screen',
-        ),
+    ),
+    'css' => array(
+      $path_to_module . '/js/orbit-1.2.3/orbit-1.2.3.css' => array(
+        'type' => 'file',
+        'media' => 'screen',
       ),
     ),
     //'dependencies' => array('re_contextlibraries', 're_contextlibraries'),

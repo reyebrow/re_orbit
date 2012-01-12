@@ -1,5 +1,3 @@
-;$Id$
-
 name = 'RE Orbit'
 description = 'Provides the Foundation Orbit javascript library and styles to the RE Context Libraries module.'
 package = 'Raised Eyebrow Custom Modules'
