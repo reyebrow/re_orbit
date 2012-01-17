@@ -1,0 +1,17 @@
+/**
+ * Slideshow styles
+ *
+ * @todo
+ *  -- we need styles for different screen sizes
+ */
+#block-views-slideshow-block {
+  width: 100%;
+}
+
+#block-views-slideshow-block .view-id-slideshow {
+  height: 300px;
+}
+
+.orbit-slide img {
+  height: 100%;
+}
