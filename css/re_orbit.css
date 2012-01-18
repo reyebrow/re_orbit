@@ -1,0 +1,42 @@
+/**
+ * Slideshow styles
+ *
+ * @todo
+ *  -- we need styles for different screen sizes
+ */
+
+#block-views-slideshow-block {
+  width: 100%;
+}
+
+  #block-views-slideshow-block .view-id-slideshow {
+    height: 300px;
+  }
+
+    #block-views-slideshow-block .view-id-slideshow .views-row {}
+
+      #block-views-slideshow-block .view-id-slideshow .views-row .orbit-title,
+      #block-views-slideshow-block .view-id-slideshow .views-row .orbit-body,
+      #block-views-slideshow-block .view-id-slideshow .views-row .orbit-edit-link {
+        margin-left: 100px;
+        margin-right: 100px;
+        position: relative;
+      }
+
+      #block-views-slideshow-block .view-id-slideshow .views-row .orbit-image {
+        position: absolute;
+      }
+
+      #block-views-slideshow-block .view-id-slideshow .views-row .orbit-title {
+        margin-top: .5em;
+      }
+
+      #block-views-slideshow-block .view-id-slideshow .views-row .orbit-caption {}
+
+      #block-views-slideshow-block .view-id-slideshow .views-row .orbit-body {
+        color: #fff;
+      }
+
+      #block-views-slideshow-block .view-id-slideshow .views-row .orbit-edit-link {
+        margin-top: 1em;
+      }
