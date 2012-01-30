@@ -2,7 +2,7 @@
 
 /**
  * @file
- * Provides the jQuery Cycle javascript library and styles to the RE Context
+ * Provides the Foundation Orbit javascript library and styles to the RE Context
  * Libraries module.
  */
 
@@ -33,9 +33,9 @@ function re_orbit_library() {
   $libraries[RE_ORBIT_LIBRARY_MACHINE_NAME] = array(
     'title' => RE_ORBIT_LIBRARY_TITLE,
     'website' => 'http://foundation.zurb.com/docs/orbit.php',
-    'version' => '1.2.3',
+    'version' => '1.4.0',
     'js' => array(
-      $path_to_module . '/js/orbit-1.2.3/jquery.orbit-1.2.3.min.js' => array(
+      $path_to_module . '/js/jquery.orbit-1.4.0.min.js' => array(
         'group' => JS_LIBRARY,
         'weight' => 4,
       ),
@@ -45,10 +45,10 @@ function re_orbit_library() {
       ),
     ),
     'css' => array(
-      $path_to_module . '/js/orbit-1.2.3/orbit-1.2.3.css' => array(
+      /*$path_to_module . '/js/orbit-1.2.3/orbit-1.2.3.css' => array(
         'type' => 'file',
         'media' => 'screen',
-      ),
+      ),*/
       $path_to_module . '/css/re_orbit.css' => array(
         'type' => 'file',
         'media' => 'screen',
