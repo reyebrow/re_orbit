@@ -45,6 +45,10 @@ function re_orbit_library() {
       ),
     ),
     'css' => array(
+      $path_to_module . '/css/orbit.css' => array(
+        'type' => 'file',
+        'media' => 'screen',
+      ),
       $path_to_module . '/css/re_orbit.css' => array(
         'type' => 'file',
         'media' => 'screen',
