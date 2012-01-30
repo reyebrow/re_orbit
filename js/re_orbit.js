@@ -29,7 +29,6 @@
         afterSlideChange: function(){}, // empty function
         fluid: true // or set a aspect ratio for content slides (ex: '4x3')
       });
-
       $('#photo_gallery').orbit({
         animation: 'horizontal-slide', // fade, horizontal-slide, vertical-slide, horizontal-push
         animationSpeed: 800, // how fast animtions are
