@@ -20,6 +20,7 @@
        * @see https://github.com/zurb/foundation/issues/228#issuecomment-3553588
        */
       background: #ccc;
+      height: 300px;
     }
 
       #block-views-slideshow-block .view-id-slideshow .views-row .orbit-content {      
@@ -41,8 +42,13 @@
         }
   
         #block-views-slideshow-block .view-id-slideshow .views-row .orbit-edit-link {
-          margin-top: 1em;
-          text-align: right;
-        }
+          background: #ccc;
+          border-bottom: 2px solid #fff;
+          border-right: 2px solid #fff;
+          padding: .5em;
+          position: absolute;
+          left: 0;
+          top: 0;
+	}
       
       #block-views-slideshow-block .view-id-slideshow .views-row .orbit-caption {}

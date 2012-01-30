@@ -4,4 +4,4 @@ package = 'Raised Eyebrow Custom Modules'
 dependencies[] = re_contextlibraries
 core = 7.x
 php = 5.2
-version = 7.x-1.1
+version = 7.x-1.2
