@@ -20,6 +20,8 @@
         startClockOnMouseOut: false, // if clock should start on MouseOut
         startClockOnMouseOutAfter: 1000, // how long after MouseOut should the timer start again
         directionalNav: true, // manual advancing directional navs
+        directionalNavRightText: Drupal.t('Next'),
+        directionalNavLeftText: Drupal.t('Previous'),
         captions: true, // do you want captions?
         captionAnimation: 'fade', // fade, slideOpen, none
         captionAnimationSpeed: 800, // if so how quickly should they animate in
@@ -38,6 +40,8 @@
         startClockOnMouseOut: false, // if clock should start on MouseOut
         startClockOnMouseOutAfter: 1000, // how long after MouseOut should the timer start again
         directionalNav: true, // manual advancing directional navs
+        directionalNavRightText: Drupal.t('Next'),
+        directionalNavLeftText: Drupal.t('Previous'),
         captions: true, // do you want captions?
         captionAnimation: 'fade', // fade, slideOpen, none
         captionAnimationSpeed: 800, // if so how quickly should they animate in
